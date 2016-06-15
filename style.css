@@ -1,0 +1,38 @@
+html body {
+	background-color: #F7EFDA;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 20px;
+}
+
+h1 {
+	background-color: #75CACD;
+	border-radius: 4px;
+	color: #F42126;
+	font-family: 'Open Sans', sans-serif;
+	max-width: 600px;
+	padding: 10px;
+	width: 60%;
+}
+
+#header2 {
+	color: #F1FEFC;
+}
+
+#input {
+	border: 2px solid;
+	border-radius: 4px;
+	height: 100%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	max-width: 600px;
+	padding: 10px;
+	width: 60%;
+}
+
+#textToCount {
+	max-width: 200px;
+	width: 20%;
+}

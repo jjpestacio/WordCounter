@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title> Word Counter </title>
+
+		<!-- for standardizing -->
+		<link href='https://necolas.github.io/normalize.css/4.1.1/normalize.css' rel='stylesheet' type='text/css'>
+
+		<!-- for Open Sans font -->
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700italic' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<h1><span id="header1">Word </span><span id="header2">Counter</span></h1>
+		<div id="textbox">
+			<span><b>Enter Text Here</b></span>
+			<form>
+				<textarea id="input" rows="20" cols="50"></textarea>
+			</form>
+		</div>
+		<div id="results"> <!-- For better practice, should of put this in a list -->
+			<span><b>Word Count: </b><span id="countWordsResult">0</span></span><br>
+			<span><b>Character Count: </b><span id="countCharsResult">0</span></span><br>
+			<span><b>Sentence Count: </b><span id="countSentencesResult">0</span></span><br>
+			<span><b>Paragraph Count: </b><span id="countParagraphsResult">0</span></span><br>
+			<span><b>Enter Text to Count: </b><input type="text" id="textToCount"></span><br>
+			<span><span id="countTextResult"></span></span><br>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
