@@ -1,4 +1,4 @@
-# WordCounter
+# word-counter
 
 --------------------------------------------------------
 COPYRIGHT - Word Counter
